@@ -37,7 +37,7 @@ The `<ListItem />` component takes in `name` (string), `completed` (boolean) and
 
 The `<ShowList />` component takes in `list` (array) and `tickItem` (function) as props.
 
-- Test that `<ol>` element contains the correct number of 'list-item' components.
+- Test that `<ol>` element contains the correct number of <ListItem /> components.
 
 ### Task 5 - BONUS
 
