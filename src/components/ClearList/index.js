@@ -1,13 +1,13 @@
 /* This component will contain a button that clears all of the list items which the person has previously entered.*/
 
-import React from "react";
-import "./ClearList.css";
+import React from 'react';
+import './clearList.css';
 
-function ClearList({ clearList }) {
+function ClearList({ clearList, buttonText }) {
   return (
     <section>
       <button className="ClearList" onClick={() => clearList()}>
-        Clear List
+        {buttonText}
       </button>
     </section>
   );

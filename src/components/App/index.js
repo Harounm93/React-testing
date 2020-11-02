@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 
 import InputList from '../InputList';
 import ShowList from '../ShowList';
@@ -51,9 +50,9 @@ function App() {
 
   return (
     <section>
-      <InputList addToList={addToList} />
+      <InputList addToList={addToList} buttonText={'Add To List'} />
       <ShowList list={list} tickItem={tickItem} />
-      <ClearList clearList={clearList} />
+      <ClearList clearList={clearList} buttonText={'Clear List'} />
     </section>
   );
 }
