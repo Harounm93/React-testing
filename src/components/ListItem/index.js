@@ -1,7 +1,7 @@
 //This is the component which shows each individual list item.
 
 import React from 'react';
-import './listItem.css';
+import './ListItem.css';
 
 function ListItem({ name, completed, tickItem }) {
   return (

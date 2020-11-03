@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react';
 
-import './inputList.css';
+import './InputList.css';
 
 function InputList({ addToList, buttonText }) {
   const [input, setInput] = useState(''); // Here is where the input field is tracked for list adding goodness.
